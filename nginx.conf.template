@@ -35,7 +35,7 @@ http {
 
 		location /check {
 			default_type "text/html;charset=utf-8;";
-			return 200 "<p style="display:none;">健康检查页面</p>";
+			return 200 "<p style='display:none;'>健康检查页面</p>";
 		}
 	}
 }
