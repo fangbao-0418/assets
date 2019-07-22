@@ -1,0 +1,624 @@
+{
+  "logo": "/images/logo.svg",
+  "menu": [
+    {
+      "title": "账户中心",
+      "icon": "/images/menu-icon-account-center.svg",
+      "path": "",
+      "code": "agent-account-center",
+      "mark": "",
+      "children": [
+        {
+          "title": "账户总览",
+          "path": "^/account/overview",
+          "code": "agent-account-center-overview",
+          "mark": "permission"
+        },
+        {
+          "title": "预付款账户",
+          "path": "^/account/advance-account",
+          "code": "agent-account-center-advance-account",
+          "mark": "permission"
+        },
+        {
+          "title": "现金账户",
+          "path": "^/account/case-account",
+          "code": "agent-account-center-case-account",
+          "mark": "permission"
+        },
+        {
+          "title": "霹雳豆账户",
+          "path": "^/account/bean-account",
+          "code": "agent-account-center-bean-account",
+          "mark": "permission"
+        },
+        {
+          "title": "商户中心",
+          "path": "^/account/business-center",
+          "code": "business_center",
+          "mark": "permission"
+        }
+      ]
+    },
+    {
+      "title": "销售看板",
+      "path": "/crm/sale-board",
+      "code": "crm_sale_board",
+      "icon": "/images/menu-icon-sale-board.svg",
+      "mark": "crm"
+    },
+    {
+      "title": "商机管理",
+      "path": "",
+      "code": "crm_business",
+      "icon": "/images/menu-icon-bussiness.png",
+      "mark": "crm",
+      "children": [
+        {
+          "title": "我的商机",
+          "path": "/crm/business",
+          "code": "crm_business_mine",
+          "mark": "crm"
+        },
+        {
+          "title": "我的预约",
+          "path": "/crm/appointment",
+          "code": "crm_business_appointment",
+          "mark": "crm"
+        }
+      ]
+    },
+    {
+      "title": "公海管理",
+      "path": "",
+      "icon": "/images/menu-icon-open.png",
+      "code": "crm_sea",
+      "mark": "crm",
+      "children": [
+        {
+          "title": "公海管理",
+          "path": "/crm/open",
+          "code": "crm_sea_manage",
+          "mark": "crm"
+        }
+      ]
+    },
+    {
+      "title": "客资管理",
+      "path": "",
+      "icon": "/images/menu-icon-customer.png",
+      "code": "crm_customer",
+      "mark": "crm",
+      "children": [
+        {
+          "title": "待分配",
+          "path": "/crm/customer",
+          "code": "crm_customer_list",
+          "mark": "crm"
+        },
+        {
+          "title": "已分配",
+          "path": "/crm/already-allocated-customer",
+          "code": "customer-pool-distribution",
+          "mark": "crm"
+        }
+      ]
+    },
+    {
+      "title": "签约客户",
+      "path": "",
+      "icon": "/images/menu-icon-sign.png",
+      "code": "crm_sign",
+      "mark": "crm",
+      "children": [
+        {
+          "title": "签约客户",
+          "path": "/crm/signed",
+          "code": "crm_sign_myself",
+          "mark": "crm"
+        },
+        {
+          "title": "客户查询",
+          "path": "/crm/customer_visit",
+          "code": "customer_visit_list",
+          "mark": "crm"
+        }
+      ]
+    },
+    {
+      "title": "CRM统计",
+      "path": "",
+      "icon": "/images/menu-icon-call-stat.png",
+      "code": "crm_data",
+      "mark": "crm",
+      "children": [
+        {
+          "title": "坐席监控",
+          "path": "/crm/shout",
+          "code": "crm_data_call",
+          "mark": "crm"
+        },
+        {
+          "title": "通话详情",
+          "path": "/crm/shout/detail",
+          "code": "crm_data_call_detail",
+          "mark": "crm"
+        },
+        {
+          "title": "销售转化仪表盘",
+          "path": "/crm/business-analysis",
+          "code": "crm_data_business",
+          "mark": "crm"
+        },
+        {
+          "title": "工作仪表盘",
+          "path": "/crm/workpanel-sales",
+          "code": "crm_data_work",
+          "mark": "crm"
+        },
+        {
+          "title": "客资分析仪表盘",
+          "path": "/crm/customer-sign",
+          "code": "crm_data_customer",
+          "mark": "crm"
+        }
+      ]
+    },
+    {
+      "title": "CRM设置",
+      "path": "",
+      "icon": "/images/menu-icon-set.png",
+      "code": "crm_set",
+      "mark": "crm",
+      "children": [
+        {
+          "title": "CRM设置",
+          "path": "/crm/customer-set/index",
+          "code": "crm_set_customer",
+          "mark": "crm"
+        },
+        {
+          "title": "分客设置",
+          "path": "/crm/customer-set/assign",
+          "code": "crm_set_customer_diversion",
+          "mark": "crm"
+        }
+      ]
+    },
+    {
+      "title": "用户管理",
+      "code": "bizbase_user",
+      "path": "",
+      "icon": "/images/menu-icon-center.png",
+      "mark": "permission",
+      "children": [
+        {
+          "title": "中心用户",
+          "code": "bizbase_user_user_list",
+          "path": "^/permission/center",
+          "mark": "permission"
+        },
+        {
+          "title": "直营用户",
+          "code": "bizbase_user_direct",
+          "path": "^/permission/user-manage/direct",
+          "mark": "permission"
+        },
+        {
+          "title": "代理商用户",
+          "code": "bizbase_user_agent",
+          "path": "^/permission/user-manage/agent",
+          "mark": "permission"
+        },
+        {
+          "title": "角色",
+          "code": "bizbase_user_role",
+          "path": "^/permission/center-role",
+          "mark": "permission"
+        },
+        {
+          "title": "权限",
+          "code": "bizbase_user_authority",
+          "path": "^/permission/center-permission",
+          "mark": "permission"
+        }
+      ]
+    },
+    {
+      "title": "管理中心",
+      "path": "",
+      "code": "bizbase_user_company",
+      "icon": "/images/menu-icon-organ.png",
+      "mark": "permission",
+      "children": [
+        {
+          "title": "机构管理",
+          "code": "bizbase_user_company_first_class",
+          "path": "^/permission/organ",
+          "mark": "permission"
+        },
+        {
+          "title": "下级管理",
+          "code": "bizbase_user_second_class",
+          "path": "^/permission/organ/channel",
+          "mark": "permission"
+        }
+      ]
+    },
+    {
+      "title": "系统设置",
+      "path": "",
+      "code": "bizbase_user_system",
+      "icon": "/images/menu-icon-user-system.svg",
+      "mark": "permission",
+      "children": [
+        {
+          "title": "大区设置",
+          "code": "bizbase_user_system_root_area",
+          "path": "^/permission/system/setarea",
+          "mark": "permission"
+        }
+      ]
+    },
+    {
+      "title": "工单管理",
+      "code": "track_work",
+      "path": "",
+      "icon": "/images/menu-icon-worker.png",
+      "mark": "legwork",
+      "children": [
+        {
+          "title": "我的工单",
+          "code": "track_work_order",
+          "path": "^/workorder/list",
+          "mark": "legwork"
+        }
+      ]
+    },
+    {
+      "title": "任务管理",
+      "mark": "legwork",
+      "code": "track_outside_task",
+      "path": "",
+      "icon": "/images/menu-icon-task.png",
+      "children": [
+        {
+          "title": "外勤任务列表",
+          "code": "track_outside_task_outside",
+          "path": "^/legwork/outsite/task/list",
+          "mark": "legwork"
+        },
+        {
+          "title": "添加外勤任务",
+          "code": "track_outside_task_add",
+          "path": "^/legwork/outsite/task/form",
+          "mark": "legwork"
+        },
+        {
+          "title": "领用单",
+          "code": "track_outside_requisition_list",
+          "path": "^/legwork/outsite/task/receiveList",
+          "mark": "legwork"
+        },
+        {
+          "title": "会计任务列表",
+          "code": "track_outside_task_account",
+          "path": "^/legwork/outsite/task/accountingList",
+          "mark": "legwork"
+        }
+      ]
+    },
+    {
+      "title": "任务配置",
+      "code": "track_outside_tasktemplate",
+      "path": "",
+      "icon": "/images/menu-icon-tasktpl.png",
+      "mark": "legwork",
+      "children": [
+        {
+          "mark": "legwork",
+          "title": "外勤子任务配置",
+          "code": "track_outside_tasktemplate_sub",
+          "path": "^/legwork/outsite/tasktpl/sublist"
+        },
+        {
+          "mark": "legwork",
+          "title": "外勤任务资料配置",
+          "code": "track_outside_tasktemplate_task_set",
+          "path": "^/legwork/outsite/tasktpl/config_data"
+        },
+        {
+          "mark": "legwork",
+          "title": "外勤主任务配置",
+          "code": "track_outside_tasktemplate_main",
+          "path": "^/legwork/outsite/tasktpl/list"
+        },
+        {
+          "mark": "legwork",
+          "title": "会计任务配置",
+          "code": "track_outside_tasktemplate_account",
+          "path": "^/legwork/outsite/tasktpl/accounting"
+        }
+      ]
+    },
+    {
+      "mark": "legwork",
+      "title": "绩效配置",
+      "code": "track_outside_reward",
+      "path": "",
+      "icon": "/images/menu-icon-perform.png",
+      "children": [
+        {
+          "mark": "legwork",
+          "title": "绩效配置",
+          "code": "track_outside_reward_config",
+          "path": "^/legwork/outsite/perform/list"
+        }
+      ]
+    },
+    {
+      "mark": "legwork",
+      "title": "数据统计",
+      "code": "track_outside_data",
+      "path": "",
+      "icon": "/images/menu-icon-data.png",
+      "children": [
+        {
+          "mark": "legwork",
+          "title": "数据总览",
+          "code": "track_outside_data_overview",
+          "path": "^/legwork/outsite/data-overview"
+        }
+      ]
+    },
+    {
+      "mark": "configure",
+      "title": "配置中心",
+      "path": "/configure",
+      "code": "config_dict",
+      "icon": "/images/menu-icon-configure.png"
+    },
+    {
+      "mark": "operate-log",
+      "title": "操作日志",
+      "path": "/operate-log",
+      "code": "bizbase_log",
+      "icon": "/images/menu-icon-log.png"
+    },
+    {
+      "title": "订单管理",
+      "icon": "/images/menu-icon-order.png",
+      "path": "",
+      "code": "shoporder",
+      "mark": "shop-order",
+      "children": [
+        {
+          "title": "线上提单",
+          "path": "/shop-order/orders/tmall",
+          "code": "order_orders_create_tmall",
+          "mark": "shop-order"
+        },
+        {
+          "title": "服务订单",
+          "path": "/shop-order/orders/service",
+          "code": "order_orders_service",
+          "mark": "shop-order"
+        },
+        {
+          "title": "客服审核",
+          "path": "/shop-order/orders/custom",
+          "code": "order_orders_custom",
+          "mark": "shop-order"
+        },
+        {
+          "title": "售后订单",
+          "path": "/shop-order/channel/sales_orders",
+          "code": "shop_order_refund",
+          "mark": "shop-order"
+        },
+        {
+          "title": "订单变更",
+          "path": "/shop-order/orders/modify",
+          "code": "order_orders_modify",
+          "mark": "shop-order"
+        }
+      ]
+    },
+    {
+      "title": "经营活动",
+      "icon": "/images/menu-icon-shop-activity-icon.png",
+      "path": "",
+      "code": "shop-activity",
+      "mark": "shop-activity",
+      "children": [
+        {
+          "title": "活动列表",
+          "path": "/shop-activity/activity/list",
+          "code": "shop_activity_all_list",
+          "mark": "shop-activity"
+        },
+        {
+          "title": "销售活动审核",
+          "path": "/shop-activity/activity/salesaudit",
+          "code": "shop_activity_sale_list",
+          "mark": "shop-activity"
+        },
+        {
+          "title": "日常运营",
+          "path": "/shop-activity/activity/yunying",
+          "code": "shop_activity_yunying",
+          "mark": "shop-activity"
+        }
+      ]
+    },
+    {
+      "title": "合同管理",
+      "icon": "/images/menu-icon-contract.png",
+      "path": "",
+      "code": "contract_management",
+      "mark": "contract-management",
+      "children": [
+        {
+          "title": "查阅合同",
+          "path": "/contract-management/contract/list",
+          "code": "contract_list",
+          "mark": "contract-management"
+        },
+        {
+          "title": "合同模版",
+          "path": "/contract-management/contract/template",
+          "code": "contract_template_list",
+          "mark": "contract-management"
+        }
+      ]
+    },
+    {
+      "title": "财务管理",
+      "icon": "/images/menu-icon-finance.png",
+      "path": "",
+      "code": "finance_financial",
+      "mark": "finance-management",
+      "children": [
+        {
+          "title": "收款管理",
+          "path": "/finance-management/receipt",
+          "code": "finance_receipt_list",
+          "mark": "finance-management"
+        },
+        {
+          "title": "退款管理",
+          "path": "/finance-management/refund",
+          "code": "finance_refund_list",
+          "mark": "finance-management"
+        },
+        {
+          "title": "分摊表",
+          "path": "/finance-management/apportioned",
+          "code": "finance_apportioned_list",
+          "mark": "finance-management"
+        },
+        {
+          "title": "领用单",
+          "path": "/finance-management/receive-form",
+          "code": "finance_receive_list",
+          "mark": "finance-management"
+        },
+        {
+          "title": "预付款账户",
+          "path": "",
+          "code": "finance_advance_account",
+          "mark": "",
+          "children": [
+            {
+              "title": "充值对账表",
+              "path": "/verify/advance-order",
+              "code": "recharge_checking_list",
+              "mark": ""
+            },
+            {
+              "title": "预付款账户明细表",
+              "path": "/verify/advance-account",
+              "code": "advance_account_detail",
+              "mark": ""
+            }
+          ]
+        },{
+          "title": "霹雳豆账户",
+          "path": "/verify/bean-account",
+          "code": "finance_pilicoin_account",
+          "mark": ""
+        },{
+          "title": "打款管理",
+          "path": "/withdraw",
+          "code": "finance_remit_manage",
+          "mark": ""
+        }
+      ]
+    },
+    {
+      "title": "公司信息",
+      "icon": "/images/menu-icon-company-info.png",
+      "path": "",
+      "code": "finance_company",
+      "mark": "finance-management",
+      "children": [
+        {
+          "title": "公司信息",
+          "path": "/finance-management/company/info",
+          "code": "finance_company_list",
+          "mark": "finance-management"
+        }
+      ]
+    },
+    {
+      "title": "商品库",
+      "icon": "/images/menu-icon-product.png",
+      "path": "",
+      "code": "shop_admin",
+      "mark": "shop-admin",
+      "children": [
+        {
+          "title": "新建商品",
+          "path": "/shop-admin/shop/goods/-1/edit",
+          "code": "shop_admin_product_create",
+          "mark": "shop-admin"
+        },
+        {
+          "title": "商品管理",
+          "path": "/shop-admin/shop",
+          "code": "shop_admin_product",
+          "mark": "shop-admin"
+        }
+      ]
+    },
+    {
+      "title": "用户管理",
+      "icon": "/images/menu-icon-shop-user.png",
+      "path": "/shop-admin/user",
+      "code": "shop_admin_user",
+      "mark": "shop-admin"
+    },
+    {
+      "title": "代理商全局规则",
+      "icon": "/images/menu-icon-global-set.svg",
+      "path": "",
+      "code": "agent-global-rule",
+      "mark": "permission",
+      "children": [
+        {
+          "title": "目标与消耗占比",
+          "path": "^/account/rules/agent/global-rule/target-consume",
+          "code": "agent-global-rule-target-consume",
+          "mark": "permission"
+        }
+      ]
+    },
+    {
+      "title": "发票管理",
+      "icon": "/images/menu-icon-bills.svg",
+      "path": "",
+      "code": "invoice",
+      "mark": "",
+      "children": [
+        {
+          "title": "我的发票",
+          "path": "/bills/mine",
+          "code": "invoice_my",
+          "mark": ""
+        },
+        {
+          "title": "发票审核",
+          "path": "/bills/audit",
+          "code": "invoice_audit",
+          "mark": ""
+        },
+        {
+          "title": "发票数据",
+          "path": "/bills/data",
+          "code": "invoice_data",
+          "mark": ""
+        }
+      ]
+    }
+  ]
+}

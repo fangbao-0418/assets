@@ -1,0 +1,17 @@
+{
+  "name": "pilipa-assets",
+  "authors": [
+    "fangbao <fangbao@i-counting.cn>"
+  ],
+  "description": "pilipa静态资源库",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
