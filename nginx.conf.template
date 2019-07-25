@@ -32,7 +32,9 @@ http {
 		listen 80;
 		root /dist;
 		index index.html;
-
+		location / {
+			rewrite ^/libs/pilipa-terrace/(?!libs)(.*) /libs/pilipa-terrace/dist/$1 break;
+		}
 		location /check {
 			default_type "text/html;charset=utf-8;";
 			return 200 "<p style='display:none;'>健康检查页面</p>";
