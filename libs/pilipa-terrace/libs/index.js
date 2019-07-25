@@ -40,6 +40,15 @@ Object.defineProperty(exports, 'Bind', {
   }
 });
 
+var _token = require('./uaa/token');
+
+Object.defineProperty(exports, 'Token', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_token).default;
+  }
+});
+
 var _cookie = require('./cookie');
 
 Object.defineProperty(exports, 'cookie', {
