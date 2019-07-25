@@ -174,24 +174,14 @@ var Main = /** @class */function (_super) {
                 { className: 'top-right' },
                 user.codes.indexOf('im_account_authority') > -1 && _react2.default.createElement(
                     'span',
-                    { className: "icon message", style: {
-                            backgroundImage: "url(" + require('../assets/images/imicon.png') + ")",
-                            width: '18px',
-                            height: '16px',
-                            marginRight: '25px'
-                        }, onClick: function onClick() {
+                    { className: "icon im", onClick: function onClick() {
                             window.location.href = '/tools/im/main.html';
                         } },
                     _react2.default.createElement('i', { className: 'point', style: { visibility: this.state.msgCount ? 'visible' : 'hidden' } })
                 ),
                 _react2.default.createElement(
                     'span',
-                    { className: "icon message", style: {
-                            backgroundImage: "url(" + require('../assets/images/message.png') + ")",
-                            width: '14px',
-                            height: '16px',
-                            marginRight: '25px'
-                        }, onClick: function onClick() {
+                    { className: "icon message", onClick: function onClick() {
                             _this.msg.uiLogicLinkToList();
                         } },
                     _react2.default.createElement('i', { className: 'point', style: { visibility: this.state.msgCount ? 'visible' : 'hidden' } })
@@ -206,11 +196,7 @@ var Main = /** @class */function (_super) {
                 _react2.default.createElement(
                     _antd.Dropdown,
                     { overlay: this.getMenu(onChange) },
-                    _react2.default.createElement('span', { className: 'icon', style: {
-                            backgroundImage: "url(" + require('../assets/images/user-menu.png') + ")",
-                            width: '14px',
-                            height: '14px'
-                        } })
+                    _react2.default.createElement('span', { className: 'icon menu' })
                 )
             )
         );

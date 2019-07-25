@@ -2927,6 +2927,10 @@ html body .middle {
 }
 .pilipa-terrace-top .message {
   position: relative;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAeCAYAAADZ7LXbAAAABGdBTUEAALGPC/xhBQAAAXJJREFUSA1jYCAeqAKVXgXif0DcQ7w20lTuBCr/j4QdSNOOXzU7UDoOiH8DMbIlm4B8NSCmCHACddcD8TsgRjYcnX0UKG8FxCQDCaCOy0CMbiAu/l+g2j4gZgZiooA8UNVtIMZlID7xWcTYwApUdINMC2CWFxOyKI9CC0AWfQBiQVwW8QMl3gAxzEWU0M24LImlkgUgx11BtoQJieOAxKaUqQ00QARmCLIl8jBBKtHKMHOQLeGDCVKJloKZg2wJI0yQSjQPzBxaWsJGD0tAGRsMaOkTUFKmuSV/sFnCAhOkEo3hE1CwKVHJcJgxGPlEHyjDBZOlEo1SkYEy4QkgBnmP2jgF5uAtNDAc5lhQy0YVFBd6MNtoQINKEQlQigoB4kAgBjUcqA0eAw0ERQXtATGFoinQGU04nHITKF6AQw4uTEwGfARU7QrEzHBdCMZLBJNyVi/QCFiKgdGfgGIalBuNagKoqfoKiEGWHANiQyAmCgAAQGm5mFxOilIAAAAASUVORK5CYII=) center center/100% 100% no-repeat;
+  width: 14px;
+  height: 16px;
+  margin-right: 25px;
 }
 .pilipa-terrace-top .message .point {
   position: absolute;
@@ -2937,4 +2941,15 @@ html body .middle {
   height: 6px;
   border-radius: 50%;
   background: #f00;
+}
+.pilipa-terrace-top .im {
+  background: url(images/imicon.a2365c6.png) center center/100% 100% no-repeat;
+  width: 18px;
+  height: 16px;
+  margin-right: 25px;
+}
+.pilipa-terrace-top .menu {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAVCAYAAABc6S4mAAAABGdBTUEAALGPC/xhBQAAAPtJREFUOBHtlMEKRUAUhv+RZGElWdlTtsobKO/hseQ1LDyBB1DsrSQrCxGuY+ou7s1d6Njdv6bGHPMd/eYfsW3bnuc52raFoijg0MGE4ziI4xjquq4oigJ1XXOw3wzP8xBFEcQuhXme30WOiaZpEELIBhzAKwaP6Vf0Y/3f4Ic5svS4RepxSlGWJbquA805RMfTtm2EYSiDlmXZGTRKIIfoRqCgBUEgczBNE2hwStd10DiTzAn+ZD3+k/8NPi3/en7cIpVaNk2DYRjO+/vrE24sUGBN04TruhDLsuxJkqCqqhuo6y2+7yNNU5mDvu8xjuP12zcqhmHAsiy8ACq8ZmWo7etkAAAAAElFTkSuQmCC) center center/100% 100% no-repeat;
+  width: 14px;
+  height: 14px;
 }
