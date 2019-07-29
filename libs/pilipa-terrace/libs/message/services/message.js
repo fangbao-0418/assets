@@ -170,7 +170,6 @@ var Msg = /** @class */function () {
         };
         // 关闭
         var onClose = function onClose() {
-            console.log('message closed.....');
             setReaded();
         };
         this.uiOpen({
@@ -185,7 +184,7 @@ var Msg = /** @class */function () {
                 ),
                 _react2.default.createElement(
                     'p',
-                    null,
+                    { style: { maxHeight: 300, overflow: 'auto' } },
                     data.content
                 ),
                 _react2.default.createElement(
@@ -198,7 +197,6 @@ var Msg = /** @class */function () {
                                 _this.uiClose();
                                 // 设为已读
                                 setReaded();
-                                console.log('???????????//', data.id);
                                 _this.uiLogicLinkToList();
                             } },
                         '\u67E5\u770B\u8BE6\u60C5'
