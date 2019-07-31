@@ -48,6 +48,27 @@
       "mark": "crm"
     },
     {
+      "title": "总部分客",
+      "path": "",
+      "icon": "/images/menu-icon-customer.png",
+      "code": "crm_customer",
+      "mark": "crm",
+      "children": [
+        {
+          "title": "待分配",
+          "path": "/crm/customer",
+          "code": "crm_customer_list",
+          "mark": "crm"
+        },
+        {
+          "title": "已分配",
+          "path": "/crm/already-allocated-customer",
+          "code": "customer-pool-distribution",
+          "mark": "crm"
+        }
+      ]
+    },
+    {
       "title": "商机管理",
       "path": "",
       "code": "crm_business",
@@ -79,27 +100,6 @@
           "title": "公海管理",
           "path": "/crm/open",
           "code": "crm_sea_manage",
-          "mark": "crm"
-        }
-      ]
-    },
-    {
-      "title": "客资管理",
-      "path": "",
-      "icon": "/images/menu-icon-customer.png",
-      "code": "crm_customer",
-      "mark": "crm",
-      "children": [
-        {
-          "title": "待分配",
-          "path": "/crm/customer",
-          "code": "crm_customer_list",
-          "mark": "crm"
-        },
-        {
-          "title": "已分配",
-          "path": "/crm/already-allocated-customer",
-          "code": "customer-pool-distribution",
           "mark": "crm"
         }
       ]
