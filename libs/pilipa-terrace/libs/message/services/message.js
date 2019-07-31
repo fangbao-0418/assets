@@ -184,7 +184,7 @@ var Msg = /** @class */function () {
                 ),
                 _react2.default.createElement(
                     'p',
-                    { style: { maxHeight: 300, overflow: 'auto' } },
+                    { style: { maxHeight: 84, overflow: 'auto' } },
                     data.content
                 ),
                 _react2.default.createElement(

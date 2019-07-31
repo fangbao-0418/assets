@@ -89,8 +89,14 @@ var Main = /** @class */function (_super) {
         if (pathname !== '/') {
             return;
         }
+        var user = this.state.value.user;
         var path = (0, _config3.getHomePage)().path;
         if (path === '/') {
+            /** 判断是否有客服权限 */
+            if (user.codes.indexOf('im_account_authority') > -1) {
+                window.location.href = '/tools/im/';
+                return;
+            }
             _config2.default.history('/noAccess');
             return;
         }
